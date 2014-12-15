@@ -1,0 +1,4 @@
+Options All -Indexes
+RewriteEngine on
+
+RewriteRule   ^page/(.*)$					index.php?page=$1						[L]
